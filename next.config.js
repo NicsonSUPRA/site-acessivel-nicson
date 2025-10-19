@@ -1,9 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: "export",
-    images: { unoptimized: true },
-    basePath: "/site-acessivel-nicson",
-    assetPrefix: "/site-acessivel-nicson/",
+    output: "export", // ativa exportação estática
 };
 
-module.exports = nextConfig;
+export default nextConfig;

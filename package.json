@@ -5,7 +5,7 @@
   "homepage": "https://nicsondev.github.io/site-acessivel-nicson",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d out"
